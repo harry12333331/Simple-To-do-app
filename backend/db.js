@@ -1,5 +1,5 @@
 const mongoose= require("mongoose");
-mongoose.connect("mongodb+srv://admin:1003@cluster0.58gzul4.mongodb.net/")
+mongoose.connect("")
 const todosschema=  mongoose.Schema({
     title: String,
     description: String,
